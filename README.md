@@ -21,3 +21,5 @@ Menu:
     Design an algorithm to determine if you can build a ransom note from a magazine.
 9. Balanced Brackets
     Given a string consisting only of the characters (, [, {, ), ], and }, write a function that returns a boolean that determines whether or not every open parentheses or bracket is paired correctly and is balanced.
+10. Largest Subarray Sum
+    Given an array of integers find a sequence with the largest sum.
