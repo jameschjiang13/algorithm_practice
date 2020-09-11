@@ -1,0 +1,12 @@
+GEM
+  specs:
+    prime (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  prime
+
+BUNDLED WITH
+   2.1.4
