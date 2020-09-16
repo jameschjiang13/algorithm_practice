@@ -1,1 +1,2 @@
 gem 'prime'
+gem 'pry'

@@ -23,3 +23,5 @@ Menu:
     Given a string consisting only of the characters (, [, {, ), ], and }, write a function that returns a boolean that determines whether or not every open parentheses or bracket is paired correctly and is balanced.
 10. Largest Subarray Sum
     Given an array of integers find a sequence with the largest sum.
+11. Power Digit Sum
+    Given two numbers, a base number x and a power number n. Calculate x to the nth power, and sum up all the digits. 
