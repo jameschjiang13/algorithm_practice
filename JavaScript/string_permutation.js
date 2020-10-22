@@ -38,44 +38,42 @@ find_string_permutation = (string) => {
 
 
 
-const startRace = () => {
-    let counter = 0
-    const click = () => {
-        counter = counter + 1
-        if(counter === 1){
-            return "You won!"
-        } else {
-            return "You lost!"
-        }
-    }
+// let fibonacci = (n) => {
+//     if (n === 0) {
+//       return 0
+//     }
+//     let i = 1
+//     let j = 1
+//     let temp
+//     let counter = 0
+//     while (n - 2 > counter) {
+//         temp = i
+//         i = j
+//         j = temp + j
+//         counter = counter + 1
+//     }
 
-    return click 
+//     return j
+// }
+
+// console.log(fibonacci(0))
+// console.log(fibonacci(1))
+// console.log(fibonacci(2))
+// console.log(fibonacci(3))
+// console.log(fibonacci(4))
+// console.log(fibonacci(5))
+// console.log(fibonacci(6))
+// console.log(fibonacci(7))
+// console.log(fibonacci(8))
+
+let decodePossiblities = (n) => {
+    let numString = n.toString()
+    let numArr = numString.split("")
+    counter = 0
+    console.log(numArr)
+
+
+    return counter
 }
 
-const firstRun = startRace()
-console.log(firstRun())
-console.log(firstRun())
-console.log(firstRun())
-console.log(firstRun())
-
-const secondRun = startRace()
-console.log(secondRun())
-console.log(secondRun())
-console.log(secondRun())
-console.log(secondRun())
-
-
-let counter = 0
-const click = () => {
-    counter = counter + 1
-    if(counter === 1){
-        return "You won!"
-    } else {
-        return "You lost!"
-    }
-}
-
-console.log(click())
-console.log(click())
-console.log(click())
-console.log(click())
+decodePossiblities(122)
